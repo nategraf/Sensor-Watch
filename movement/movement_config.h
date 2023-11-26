@@ -29,11 +29,11 @@
 
 const watch_face_t watch_faces[] = {
     simple_clock_face,
-    sunrise_sunset_face,
     stock_stopwatch_face,
+    sunrise_sunset_face,
     thermistor_readout_face,
-    rpn_calculator_face, // TODO TEST
     probability_face,
+    rpn_calculator_face,
 
     // ---- SECONDARY ROTATION ---
     preferences_face,
