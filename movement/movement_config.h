@@ -29,18 +29,18 @@
 
 const watch_face_t watch_faces[] = {
     simple_clock_face,
-//    world_clock_face,
     sunrise_sunset_face,
-//    moon_phase_face,
     stock_stopwatch_face,
     thermistor_readout_face,
-    rpn_calculator_face,
+    rpn_calculator_face, // TODO TEST
+    probability_face,
 
     // ---- SECONDARY ROTATION ---
     preferences_face,
     voltage_face,
-    // Use the hackwatch time face instead of the base. Can set date and timezone.
-    //  set_time_face,
+    // Use the hackwatch time face instead of the base.
+    // Can set date and timezone.
+    //set_time_face,
     set_time_hackwatch_face,
     finetune_face,
     nanosec_face,
